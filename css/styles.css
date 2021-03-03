@@ -1,0 +1,25 @@
+.cell {
+  height: 50px;
+  width: 50px;
+  border: solid 1px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 45px;
+  text-align: center;
+  background-color: none;
+}
+
+.cell:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 156px;
+  margin: 10px 0px;
+}
+
+.reset {
+  margin: 10px 0px;
+}
