@@ -1,25 +1,32 @@
+.board {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 5px 0;
+}
+
+.row {
+  display: flex;
+}
+
 .cell {
-  height: 50px;
-  width: 50px;
-  border: solid 1px;
-  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  border: solid 0.5px;
   cursor: pointer;
-  font-size: 45px;
+  font-size: 27px;
   text-align: center;
   background-color: none;
+  margin: 1px;
 }
 
 .cell:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-.board {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-  width: 156px;
-  margin: 10px 0px;
+.reset {
+  margin: 5px 0;
 }
 
-.reset {
-  margin: 10px 0px;
+#message {
+  min-height: 18px;
 }
